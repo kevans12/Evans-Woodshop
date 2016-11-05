@@ -3,13 +3,13 @@ angular.module('woodshop', ['ui.router'])
         $stateProvider
             .state('home',{
                 url:'/',
-                templateUrl: "../views/home.html"
+                templateUrl: "./public/views/home.html",
                 controller: 'homeCtrl',
                 controllerAs: 'vm'
             })
             .state('about',{
                 url:'/about',
-                templateUrl: "../views/about.html",
+                templateUrl: "./public/views/about.html",
                 controller: 'aboutCtrl',
                 controllerAs: 'vm'
             })
