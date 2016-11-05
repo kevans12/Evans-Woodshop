@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 5px;
+  width: 90%;
+  height: 700px;
+}
+body {
+  padding-top: 60px;
+}
+.banner {
+  background: url('../images/EvansWoodshop_small.jpg') no-repeat;
+  background-size:contain;
+  width: 100%
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.home-photo {
+  background: url('../images/Shop1.jpg') no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-photo p {
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin: 0 auto;
+}
+.HC {
+  font-size: 40px;
+  font-weight: bold;
+}
+.menu {
+  height: 30px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  padding-top: -10px;
+}
+.navlogo {
+  height: 40px;
+  width: auto;
+  padding: 0;
+  margin-top: -10px;
+}
+
+.footer-line {
+  width: 90%;
+  margin: auto;
+  background-color: #D3D3D3;
+  height: 2px;
+  margin-top: 5px;
+}
+.footer-icons {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+}
+.facebook-icon {
+  width: auto;
+  height: 20px;
+}
+.facebook-icon { width: auto; height: 20px; padding: 2px 15px;}
+.twitter-icon { width: auto; height: 20px;padding: 2px 15px;}
+.instagram-icon { width: auto; height: 20px;padding: 2px 15px;}
+.pinterest-icon { width: auto; height: 20px;padding: 2px 15px;}
