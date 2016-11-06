@@ -6,18 +6,18 @@ var passport = require('passport');
 var massive = require('massive');
 // var FacebookStrategy = require('passport-facebook').Strategy;
 // var config = require('./config.js');
-var connectionString = "postgres://postgres:serverpw@localhost/Woodshop";
+// var connectionString = "postgres://postgres:serverpw@localhost/Woodshop";
 
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-var massiveInstance = massive.connectSync({connectionString : connectionString})
-app.set('db', massiveInstance);
+// var massiveInstance = massive.connectSync({connectionString : connectionString})
+// app.set('db', massiveInstance);
 
 var controller = require('./controller'); //have to call after our export
 
-
+app.use(express.static(__dirname));
 // app.use(session({
 //   secret: 'supersecret',
 //   resave: true,
