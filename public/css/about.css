@@ -1,0 +1,17 @@
+.about-photo {
+  background: url('../images/bandsaw.jpg') no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-photo p {
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin: 0 auto;
+}
+.aboutpic-text {font-size: 1.2em}
