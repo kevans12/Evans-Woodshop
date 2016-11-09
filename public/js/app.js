@@ -13,6 +13,24 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'aboutCtrl',
                 controllerAs: 'vm'
             })
+            .state('pins',{
+                url:'/pins',
+                templateUrl: "./public/views/pins.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
+            .state('shaving',{
+                url:'/shavingsets',
+                templateUrl: "./public/views/shavingsets.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
+            .state('shavingDB',{
+                url:'/shavingsetsDB',
+                templateUrl: "./public/views/shaving.html",
+                controller: 'productsDBCtrl',
+                controllerAs: 'vm'
+            })
 
         $urlRouterProvider
             .otherwise('/');

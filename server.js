@@ -23,12 +23,14 @@ var controller = require('./controller'); //have to call after our export
 //   resave: true,
 //   saveUninitialized: true
 // }));
-
+app.use(express.static(__dirname));
 // app.use(passport.initialize());
 // app.use(passport.session());
 app.listen('3000', function(){
   console.log("Successfully listening on : 3000")
 });
+
+
 
 app.get('/getall', controller.GetAll);
 controller.GetOne();

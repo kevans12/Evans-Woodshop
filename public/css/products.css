@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-card {
+  width: 300px;
+  border: 1pt solid #D3D3D3;
+  margin: 5px;
+}
+.image-container {
+  width: 100%;
+}
+.image-container img {
+  max-width: 100%;
+}
+.product-bottom {
+  padding: 4px;
+}
+h5 {
+  color: #28A416
+}
+h4{
+  color: #383D38
+}
