@@ -27,8 +27,14 @@ angular.module('woodshop', ['ui.router'])
             })
             .state('shavingDB',{
                 url:'/shavingsetsDB',
-                templateUrl: "./public/views/shaving.html",
+                templateUrl: "./public/views/pinsDB.html",
                 controller: 'productsDBCtrl',
+                controllerAs: 'vm'
+            })
+            .state('specificProd',{
+                url:'/details/:id',
+                templateUrl: "./public/views/specificProd.html",
+                controller: 'specificProdCtrl',
                 controllerAs: 'vm'
             })
 

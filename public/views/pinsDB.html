@@ -1,6 +1,7 @@
 <div class="products">
-  <section class="product-container" ng-repeat="pin in pindata">
-    <section class="product-card" >
+   <section class="product-container" ng-repeat="pin in pindata">
+     <a ui-sref="specificProd({id: pin.product_id})">
+      <section class="product-card" >
         <div class="image-container">
           <img src="{{pin.image}}" alt="{{pin.name}}">
         </div>
@@ -9,5 +10,6 @@
             <h5>{{pin.price}}</h5>
         </div>
     </section>
- </section>
+   </a>
+  </section>
 </div>
