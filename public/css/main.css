@@ -2,19 +2,18 @@
   box-sizing: border-box;
 }
 body {
-  padding-top: 60px;
+  padding-top: 55px;
 }
 .main {
   margin: 0 auto;
-  padding: 5px;
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
-.banner {
+/*.banner {*/
   /*background: url('../images/EvansWoodshop_small.jpg') no-repeat;*/
   /*background-size:contain;*/
-  width: 100%
+  /*width: 100%
   margin: auto;
   margin-left: 10%;
   margin-right: 10%;
@@ -26,21 +25,22 @@ body {
   display: block;
   margin: auto;
   max-width: 100%;
-}
+}*/
 
 .home-photo {
   background: url('../images/Shop1.jpg') no-repeat;
+  opacity: .8;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   width: 100%;
-  margin: auto;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .home-photo p {
   text-align: center;
-  width: 50%;
+  width: 65%;
   color: white;
   margin: 0 auto;
 }
@@ -62,6 +62,102 @@ body {
   padding: 0;
   margin-top: -10px;
 }
+.navlogo:hover {
+  transform: scale(1.1);
+}
+
+/***************************home product grid*******************************/
+
+.home-products-grid {
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 30px;
+  height: auto;
+}
+.home-products-grid a span{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.4em;
+}
+.home-products-grid a:hover span {
+  display: block;
+}
+.home-products-top-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.home-products-top-row div {
+  max-width: 30%;
+  height: auto;
+  margin: 5px;
+  position: relative;
+}
+.home-products-top-row img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/*.home-products-top-row img:hover {
+  opacity: .1;
+  display: block;
+}
+.home-products-top-row p:hover {
+  display: block;
+}*/
+.home-products-bottom-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.home-products-bottom-row div {
+  max-width: 30%;
+  height: auto;
+  margin: 5px;
+  position: relative;
+}
+.home-products-bottom-row img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/***************************slideshow/social*******************************/
+.slideshow-social {
+  width: 100%;
+  height: 500px;
+  /*background-image: url('../images/wood-bg1.jpg');*/
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.slideshow-social::after {
+  content: "";
+  background: url('../images/wood-bg1.jpg');
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.slidshow {
+ float: left;
+ vertical-align: middle;
+ margin: 20px;
+ margin-top: 30px;
+ padding: 10px;
+}
 #slideshow {
     margin: 50px auto;
     position: relative;
@@ -81,6 +177,27 @@ body {
   max-width: 500px;
 max-height: 300px;
 }
+.social {
+  width: 300px;
+  float: right;
+  text-align: center;
+  margin: 20px;
+}
+.social h2 {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+.social-icons > div {
+  margin: 10px;
+}
+.social-icons img {
+  width: 90px;
+  height: auto;
+}
+.social-icons img:hover {
+ transform: scale(1.2);
+}
+/***************************about*******************************/
 .home-story {
   display: flex;
   flex-direction: row;
@@ -112,6 +229,7 @@ max-height: 300px;
   height: 2px;
   margin-top: 5px;
 }
+/***************************footer*******************************/
 .footer-icons {
   display: flex;
   margin: auto;
@@ -119,9 +237,8 @@ max-height: 300px;
   flex-direction: row;
   padding: 10px;
 }
-.facebook-icon {
-  width: auto;
-  height: 20px;
+.footer-icons img:hover {
+  transform: scale(1.1);
 }
 .facebook-icon { width: auto; height: 20px; padding: 2px 15px;}
 .twitter-icon { width: auto; height: 20px;padding: 2px 15px;}
