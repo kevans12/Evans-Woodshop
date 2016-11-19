@@ -1,33 +1,40 @@
 * {
   box-sizing: border-box;
 }
+.specific-product {
+  width: 95%;
+  padding: 5px;
+}
 .specific-top {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
   margin-bottom: 10px;
 }
 .specific-left {
-  width: 350px;
+  width: 400px;
   height: auto;
   margin: 5px;
+  float: left;
+  margin-right: 15px;
 }
 .specific-left img {
-  max-width: 100%;
+  /*max-width: 100%;*/
+  width: 100%;
+  height: auto;
 }
 .specific-right {
-  width: 350px;
-  height: 240px;
+  width: 35%;
+  height: auto;
   margin: 5px;
-  background-color: #fafafa;
-  padding: 10px;
+  /*padding: 10px;*/
 }
-.specific-description {
+/*.specific-description {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  margin: 5px;
 }
 .specific-bottom {
   width: 80%;
@@ -35,11 +42,60 @@
   margin: auto;
   display: flex;
   justify-content: center;
+}*/
+
+.specific-right h4 {
+  font-size: 1.5em;
+}
+.specific-right h5 {
+  font-size: 1.2em;
+}
+.specific-right p {
+  font-size: 1.2em;
+}
+@media (max-width: 750px) {
+  .specific-right {
+    width: 300px;
+  }
 }
 
-h4 {
-  font-size: 1.4em;
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
 }
-h5 {
-  font-size: 1.2em;
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.specific-description-tabs {
+  margin-left: 5px;
 }

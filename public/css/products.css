@@ -1,6 +1,20 @@
 * {
   box-sizing: border-box;
 }
+/*.banner {
+  background: url('../images/EvansWoodshop_small.jpg') no-repeat;
+  background-size:contain;
+  width: 100%
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}*/
+.banner img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
 .products {
   display: flex;
   flex-wrap: wrap;

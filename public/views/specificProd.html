@@ -5,24 +5,33 @@
      </div>
      <div class="specific-right">
       <h4 id="name">{{selectedItem.name}}</h4>
-      <h5 id="price">{{selectedItem.price}}</h5><br />
+      <h5 id="price">{{selectedItem.price}}</h5>
+      <p>
+        <strong>Summary:</strong> Made from solid hardwood, this rolling pin will last for generations to come.
+      </p>
+      <br />
       <p id="button"> {{selectedItem.button}} </p>
      </div>
   </div>
-  <div class="specific-description">
-    <p>
-      <strong>DESCRIPTION:</strong>
-    </p>
-     <p>
-      {{selectedItem.prod_description}}
-     </p>
-     <p>
-       <strong>SHOP INFO:</strong> <br />Each of our items is created by hand in our wood shop. Each item is completely one-of-a-kind. We take great pride in our craftsmanship, and know that you will love your unique piece. All the wood grain and color is completely natural, so no paints, dyes or stains. Each item is made and finished one at a time, ensuring the highest quality.
-     </p>
-      <div class="specific-bottom">
-       <p>
-        a directive here
-       </p>
-      </div>
- </div>
-</div>
+   <div class="specific-description-tabs">
+    <div class="specific-description">
+    <ul class="tab">
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Description')">Description</a></li>
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'ShopInfo')">Shop Info</a></li>
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Shipping')">Shipping</a></li>
+     </ul>
+
+    <div id="Description" class="tabcontent">
+       <p>{{selectedItem.prod_description}}</p>
+    </div>
+
+    <div id="ShopInfo" class="tabcontent">
+     <p>Each of our items is created by hand in our wood shop. Each item is completely one-of-a-kind. We take great pride in our craftsmanship, and know that you will love your unique piece. All the wood grain and color is completely natural, so no paints, dyes or stains. Each item is made and finished one at a time, ensuring the highest quality.</p>
+    </div>
+
+     <div id="Shipping" class="tabcontent">
+      <p>Something about shipping??</p>
+     </div>
+    </div>
+   </div>
+  </div>
