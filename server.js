@@ -5,7 +5,7 @@ var cors = require('cors');
 var passport = require('passport');
 var massive = require('massive');
 // var FacebookStrategy = require('passport-facebook').Strategy;
-var config = require('config.js');
+var config = require('./config.js');
 
 var app = module.exports = express();
 app.use(bodyParser.json());
@@ -26,7 +26,7 @@ app.use(express.static(__dirname));
 // app.use(passport.initialize());
 // app.use(passport.session());
 app.listen(config.port, function(){
-  console.log("Successfully listening on : "+config.port)
+  console.log("Successfully listening on :" + config.port)
 });
 
 
