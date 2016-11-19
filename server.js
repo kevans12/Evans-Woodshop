@@ -5,14 +5,13 @@ var cors = require('cors');
 var passport = require('passport');
 var massive = require('massive');
 // var FacebookStrategy = require('passport-facebook').Strategy;
-// var config = require('./config.js');
-var connectionString = "postgres://postgres:serverpw@localhost/Woodshop";
+var config = require('config.js');
 
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-var massiveInstance = massive.connectSync({connectionString : connectionString})
+var massiveInstance = massive.connectSync({connectionString : config.connectionString})
 app.set('db', massiveInstance);
 
 var controller = require('./controller'); //have to call after our export
@@ -26,8 +25,8 @@ var controller = require('./controller'); //have to call after our export
 app.use(express.static(__dirname));
 // app.use(passport.initialize());
 // app.use(passport.session());
-app.listen('3000', function(){
-  console.log("Successfully listening on : 3000")
+app.listen(config.port, function(){
+  console.log("Successfully listening on : "+config.port)
 });
 
 
