@@ -132,10 +132,15 @@ body {
   height: auto;
   display: block;
 }
+@media(max-width: 500px) {
+  .home-products-grid a span {
+    font-size: 1em;
+  }
+}
 /***************************slideshow/social*******************************/
 .slideshow-social {
   width: 100%;
-  height: 500px;
+  height: auto;
   /*background-image: url('../images/wood-bg1.jpg');*/
   position: relative;
   display: flex;
@@ -200,6 +205,51 @@ max-height: 300px;
 .social-icons img:hover {
  transform: scale(1.2);
 }
+@media(max-width:700px) {
+  .slideshow-social {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slidshow {
+    margin: 10px;
+  }
+  #slideshop {
+    margin: 10px;
+  }
+  .social {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: none;
+    align-items: center;
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+  }
+  .social-icons > div {
+    margin: 5px;
+  }
+}
+@media(max-width:500px) {
+  .slideshow {
+    display: none;
+  }
+  #slideshow {
+    display: none;
+    margin: 0px;
+  }
+  .social {
+    align-items: center;
+  }
+}
 /***************************about*******************************/
 .home-story {
   display: flex;
@@ -232,13 +282,14 @@ max-height: 300px;
   height: 2px;
   margin-top: 5px;
 }
-/***************************instagram feed*******************************/
+/***************************photo feed*******************************/
 .picture-feed {
   width: 100%;
-  height: 550px;
+  height: auto;
   position: relative;
-  margin: 20px 0px;
+  margin: 10px 0px;
   align-items: center;
+  padding: 10px 5px;
   /*display: flex;
   flex-direction: column;*/
 }
@@ -257,20 +308,40 @@ max-height: 300px;
 .picture-feed h2 {
   align-items: center;
   text-align: center;
+  margin: 5px;
+  padding: 5px;
 }
 .pics {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  margin-top: 5px;
 }
 .pics div {
-  width: 250px;
+  max-width: 200px;
   height: auto;
 }
 .pics img {
   width: 100%;
   height: auto;
-  border: 7px solid rgb(192,192,192,0.5);
+  border: 10px solid rgb(192,192,192,0.5);
+  align-items: center;
+}
+.pics img:hover {
+    transform: scale(1.05);
+}
+@media(max-width: 750px) {
+  .pics {
+    flex-flow: wrap;
+
+  }
+  .pics div {
+    max-width: 150px;
+    height: auto;
+    margin: 5px;
+  }
 }
 /***************************footer*******************************/
 .footer-icons {

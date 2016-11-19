@@ -26,6 +26,12 @@
   border: 1pt solid #D3D3D3;
   margin: 5px;
 }
+/*.product-container a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}*/
 .image-container {
   width: 100%;
 }
