@@ -1,0 +1,46 @@
+<div class="specific-product" ng-model="selectedProd">
+  <div class="specific-top">
+     <div class="specific-left">
+       <img src="{{selectedProd.image}}" />
+     </div>
+     <div class="specific-right">
+       <h4 id="name">{{selectedProd.name}}</h4>
+       <h5 id="price">{{selectedProd.price | currency}}</h5>
+      <p>
+        <strong>Summary:</strong> Made from solid hardwood, it will last for generations to come.
+      </p>
+      <br />
+      <p  id="button"> {{selectedProd.button}} </p>
+     </div>
+  </div>
+   <div class="specific-description-tabs">
+    <div class="specific-description">
+    <ul class="tab">
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Description')" id="defaultOpen">Description</a></li>
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'ShopInfo')">Shop Info</a></li>
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Shipping')">Shipping/Returns</a></li>
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'FAQ')">FAQ</a></li>
+     </ul>
+    <div id="Description" class="tabcontent">
+       {{selectedProd.desc}}
+    </div>
+
+    <div id="ShopInfo" class="tabcontent">
+     <p>Each of our items is created by hand in our wood shop. Each item is completely one-of-a-kind. We take great pride in our craftsmanship, and know that you will love your unique piece. All the wood grain and color is completely natural, so no paints, dyes or stains. Each item is made and finished one at a time, ensuring the highest quality.</p>
+    </div>
+
+     <div id="Shipping" class="tabcontent">
+      <strong>Shipping:</strong><p>Each item is custom made, so please allow 7-10 days for us to get it ready for you.</p>
+      <strong>Returns:</strong><p>If there is any problem with your order, please reach out to us and let us know so we can work with you to make it right.</p>
+     </div>
+
+     <div id="FAQ" class="tabcontent">
+      <strong>Cutting Board/Rolling Pin Care:</strong><p>We apply mineral oil to our cutting boards and rolling pins before sending them to you. To help maintain your cutting board or rolling pin, we suggest you continue to apply mineral oil or butcher block oil once a day for the first week, once a week for the first month, and then once a month after that, or as needed. To clean, simply wipe off or rinse with warm soapy water and dry immediately Never put these items in the dishwasher.</p>
+
+      <strong>Custom Orders or Engraving:</strong><p>Yes, we are happy to take custom orders. Feel free to message us and we can work out the details with you. We don't currently do any engraving on our items.</p>
+
+     </div>
+
+    </div>
+   </div>
+  </div>

@@ -275,6 +275,7 @@ max-height: 300px;
 .right img {
   max-width: 100%;
 }
+
 .line {
   width: 90%;
   margin: auto;
@@ -297,7 +298,7 @@ max-height: 300px;
   content: "";
   background: url('../images/wood-bg2.jpg');
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.20;
   top: 0;
   left: 0;
   bottom: 0;
@@ -310,6 +311,7 @@ max-height: 300px;
   text-align: center;
   margin: 5px;
   padding: 5px;
+  font-family: 'Permanent Marker', cursive;
 }
 .pics {
   display: flex;

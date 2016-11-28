@@ -16,11 +16,10 @@
    <div class="specific-description-tabs">
     <div class="specific-description">
     <ul class="tab">
-     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Description')">Description</a></li>
+     <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Description')" id="defaultOpen">Description</a></li>
      <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'ShopInfo')">Shop Info</a></li>
      <li><a href="javascript:void(0)" class="tablinks" onclick="openProdInfo(event, 'Shipping')">Shipping</a></li>
      </ul>
-
     <div id="Description" class="tabcontent">
        <p>{{selectedItem.prod_description}}</p>
     </div>

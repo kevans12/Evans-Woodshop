@@ -1,5 +1,7 @@
+<div class="banner"><img src="./public/images/EvansWoodshop_small.jpg" /> </div>
 <div class="products">
   <section class="product-container" ng-repeat="set in shavingsetInfo">
+    <a ui-sref="specProdfromServ({prodID: set.id})">
     <section class="product-card" >
         <div class="image-container">
           <img src="{{set.image}}" alt="{{set.name}}">
@@ -9,5 +11,6 @@
             <h5>{{set.price | currency}}</h5>
         </div>
     </section>
+  </a>
  </section>
 </div>

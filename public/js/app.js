@@ -25,8 +25,8 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'productCtrl',
                 controllerAs: 'vm'
             })
-            .state('shavingDB',{
-                url:'/shavingsetsDB',
+            .state('pinsDB',{
+                url:'/pinsDB',
                 templateUrl: "./public/views/pinsDB.html",
                 controller: 'productsDBCtrl',
                 controllerAs: 'vm'
@@ -35,6 +35,12 @@ angular.module('woodshop', ['ui.router'])
                 url:'/details/:id',
                 templateUrl: "./public/views/specificProd.html",
                 controller: 'specificProdCtrl',
+                controllerAs: 'vm'
+            })
+            .state('specProdfromServ',{
+                url:'/moredetails/:prodID',
+                templateUrl: "./public/views/specProdfromServ.html",
+                controller: 'specProdCtrlfromServ',
                 controllerAs: 'vm'
             })
 

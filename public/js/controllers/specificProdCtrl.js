@@ -12,7 +12,7 @@ angular.module('woodshop').controller('specificProdCtrl', function($scope, $stat
           $scope.selectedItem = $scope.pindata[i];
          }
        }
-       console.log('doc.get', document.getElementById('test'))
+      //  console.log('doc.get', document.getElementById('test'))
 
 
        var name = document.getElementById('name');
@@ -26,6 +26,8 @@ angular.module('woodshop').controller('specificProdCtrl', function($scope, $stat
      }
     })
 
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
 
 
 
