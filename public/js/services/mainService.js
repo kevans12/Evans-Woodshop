@@ -128,43 +128,313 @@ angular.module('woodshop').service('mainService', function(){
     this.shavingsetInfo = [{
         name: 'Walnut Shaving Set',
         image: "../public/images/walnutshave.jpg",
-        desc: 'Handmade from walnut wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you will be able to enjoy for years to come.',
+        desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+        <p>Handmade from walnut wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+        <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+        <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a razor set. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.Each item will be slightly different and unique as they are made to order.</p>\
+        <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
         id: 101,
-        price: 129
+        price: 129,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                 <input type="hidden" name="cmd" value="_s-xclick">\
+                 <input type="hidden" name="hosted_button_id" value="SPZHVYE9MJWXA">\
+                 <table>\
+                 <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+	               <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+	               <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+                 </select> </td></tr>\
+                 <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+              	<option value="Safety Razor">Safety Razor </option>\
+	              <option value="Mach 3">Mach 3 </option>\
+                	<option value="Fusion">Fusion </option>\
+                 </select> </td></tr>\
+                 </table><br>\
+                 <input type="hidden" name="currency_code" value="USD">\
+                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                 </form>'
 
     }, {
       name: 'Marblewood Shaving Set',
       image: "../public/images/marblewood.jpg",
-      desc: 'Handmade from marblewood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you will be able to enjoy for years to come.',
+      desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+      <p>Handmade from marblewood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+      <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+      <p>Marblewood is a beautiful golden wood with dramatic brown streaks throughout. It comes from South America. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
       id: 102,
-      price: 129
+      price: 129,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="8F9AJ2HK2MUKG">\
+               <table>\
+               <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+               <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+               <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+               </select> </td></tr>\
+               <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+              <option value="Safety Razor">Safety Razor </option>\
+              <option value="Mach 3">Mach 3 </option>\
+                <option value="Fusion">Fusion </option>\
+               </select> </td></tr>\
+               </table><br>\
+               <input type="hidden" name="currency_code" value="USD">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+               </form>'
+
     },{
       name: 'Birdseye Maple Shaving Set',
       image: "../public/images/birdseye.jpg",
-      desc: 'Handmade from birdseye maple wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you will be able to enjoy for years to come.',
+      desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+      <p>Handmade from birdseye maple, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+      <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+      <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a shaving set. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
       id: 103,
-      price: 129
+      price: 129,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="BC6DAY3NXBYVC">\
+               <table>\
+               <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+               <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+               <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+               </select> </td></tr>\
+               <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+              <option value="Safety Razor">Safety Razor </option>\
+              <option value="Mach 3">Mach 3 </option>\
+                <option value="Fusion">Fusion </option>\
+               </select> </td></tr>\
+               </table><br>\
+               <input type="hidden" name="currency_code" value="USD">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+               </form>'
+
     },{
       name: 'Caribbean Swirl Shaving Set',
       image: "../public/images/blue.jpg",
-      desc: 'Handmade from Caribbean Swirl acrylic, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are polished to a high gloss for a durable, lasting look that you will be able to enjoy for years to come.',
+      desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+      <p>Handmade from birdseye maple, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+      <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+      <p>This eye-catching Caribbean swirl acrylic is not only a beautiful, vibrant blue with swirls throughout, but is also extremely durable. It will be a conversation piece as well as the perfect addition to any countertop.</p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
       id: 104,
-      price: 129
+      price: 129,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="6MNLJJYNW3G8G">\
+               <table>\
+               <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+               <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+               <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+               </select> </td></tr>\
+               <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+              <option value="Safety Razor">Safety Razor </option>\
+              <option value="Mach 3">Mach 3 </option>\
+                <option value="Fusion">Fusion </option>\
+               </select> </td></tr>\
+               </table><br>\
+               <input type="hidden" name="currency_code" value="USD">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+               </form>'
       },{
         name: 'Spalted Tamarind Shaving Set',
         image: "../public/images/spalted.jpg",
-        desc: 'Handmade from spalted tamarind wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you will be able to enjoy for years to come.',
+        desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+        <p>Handmade from spalted tamarind wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+        <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+        <p>Spalted tamarind wood is a beautiful light wood with dramatic black stripes & patterns that comes from tropical Africa. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
+        <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
         id: 105,
-        price: 129
+        price: 129,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                 <input type="hidden" name="cmd" value="_s-xclick">\
+                 <input type="hidden" name="hosted_button_id" value="DSSP8B7QE7JNJ">\
+                 <table>\
+                 <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+                 <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+                 <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+                 </select> </td></tr>\
+                 <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+                <option value="Safety Razor">Safety Razor </option>\
+                <option value="Mach 3">Mach 3 </option>\
+                  <option value="Fusion">Fusion </option>\
+                 </select> </td></tr>\
+                 </table><br>\
+                 <input type="hidden" name="currency_code" value="USD">\
+                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                 </form>'
       },{
         name: 'Cherry Shaving Set',
         image: "../public/images/cherry.jpg",
-        desc: 'Handmade from cherry wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you will be able to enjoy for years to come.',
+        desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+        <p>Handmade from cherry wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+        <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+        <p>Cherry is a beautiful hard wood with dense grain, making it perfect for shaving sets. Cherry can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind.</p>\
+        <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
         id: 106,
-        price: 129
+        price: 129,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                 <input type="hidden" name="cmd" value="_s-xclick">\
+                 <input type="hidden" name="hosted_button_id" value="LWXGQ26J7F7EJ">\
+                 <table>\
+                 <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+                 <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+                 <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+                 </select> </td></tr>\
+                 <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+                <option value="Safety Razor">Safety Razor </option>\
+                <option value="Mach 3">Mach 3 </option>\
+                  <option value="Fusion">Fusion </option>\
+                 </select> </td></tr>\
+                 </table><br>\
+                 <input type="hidden" name="currency_code" value="USD">\
+                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                 </form>'
+     },{
+        name: 'Rosewood Shaving Set',
+        image: "../public/images/rosewood-shaving-set.jpg",
+        desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+        <p>Handmade from Honduran rosewood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+        <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+        <p>Rosewood is a beautiful hard wood with dense grain, making it perfect for shaving sets. Rosewood can vary from a lighter brown to a deeper brownish purple and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
+        <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
+        id: 107,
+        price: 129,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                <input type="hidden" name="cmd" value="_s-xclick">\
+                <input type="hidden" name="hosted_button_id" value="ZH9D3HYKVBJUU">\
+                <table>\
+                <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+                <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+                <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+                </select> </td></tr>\
+                <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+                <option value="Safety Razor">Safety Razor </option>\
+                <option value="Mach 3">Mach 3 </option>\
+                 <option value="Fusion">Fusion </option>\
+                </select> </td></tr>\
+                </table><br>\
+                <input type="hidden" name="currency_code" value="USD">\
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                </form>'
+    },{
+       name: 'Padauk Shaving Set',
+       image: "../public/images/padauk-set.jpg",
+       desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
+       <p>Handmade from padauk wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
+       <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
+       <p>Padauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain. </p>\
+       <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
+       id: 107,
+       price: 129,
+       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="QQHYSCEBKX7TQ">\
+               <table>\
+               <tr><td><input type="hidden" name="on0" value="Brush">Brush Style</td></tr><tr><td><select name="os0">\
+               <option value="Premium Badger Hair">Premium Badger Hair $129.00 USD</option>\
+               <option value="Super Silvertip">Super Silvertip $159.00 USD</option>\
+               </select> </td></tr>\
+               <tr><td><input type="hidden" name="on1" value="Razor Style">Razor Style</td></tr><tr><td><select name="os1">\
+               <option value="Safety Razor">Safety Razor </option>\
+               <option value="Mach 3">Mach 3 </option>\
+                <option value="Fusion">Fusion </option>\
+               </select> </td></tr>\
+               </table><br>\
+               <input type="hidden" name="currency_code" value="USD">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+               </form>'
 
     }]
 
-this.allProducts = this.pinInfo.concat(this.shavingsetInfo);
+    this.cuttingBoards = [{
+        name: 'Solid Walnut Cutting Board',
+        image: "../public/images/walnut-board.jpg",
+        desc: '<p>Whether you need a quick cutting board to slice up some fruit or a beautiful serving platter for a cheese ball and crackers, this walnut board is exactly what you\'re looking for. Made from a solid piece of walnut wood and sanded to a smooth finish, it is just the right board for anything you need.</p>\
+        <p>This cutting board measures approximately 11 inches by 7 inches and is 1 inch thick with rounded edges. It makes the perfect addition to any kitchen. Leave it on the counter for display or tuck it away easily for use later.</p>\
+        <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a rolling pin. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.</p>\
+        <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+        id: 201,
+        price: 29,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                 <input type="hidden" name="cmd" value="_s-xclick">\
+                 <input type="hidden" name="hosted_button_id" value="4P686NV3UMBKY">\
+                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                </form>'
+
+},{
+        name: 'Solid Maple Cutting Board',
+        image: "../public/images/maple-board.jpg",
+        desc: '<p>Whether you need a quick cutting board to slice up some fruit or a beautiful serving platter for a cheese ball and crackers, this maple board is exactly what you\'re looking for. Made from a solid piece of maple wood and sanded to a smooth finish, it is just the right board for anything you need.</p>\
+        <p>This cutting board measures approximately 11 inches by 7 inches and is 1 inch thick with rounded edges. It makes the perfect addition to any kitchen. Leave it on the counter for display or tuck it away easily for use later.</p>\
+        <p>Maple is a beautiful hard wood with dense grain, making it perfect for the kitchen. Maple is a cream colored wood that also has light patterns throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
+        <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+        id: 202,
+        price: 29,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                 <input type="hidden" name="cmd" value="_s-xclick">\
+                 <input type="hidden" name="hosted_button_id" value="RYWAUWMH4SDY2">\
+                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                </form>'
+
+},{
+        name: 'Solid Cherry Cutting Board',
+        image: "../public/images/cherry-board.jpg",
+        desc: '<p>Whether you need a quick cutting board to slice up some fruit or a beautiful serving platter for a cheese ball and crackers, this cherry board is exactly what you\'re looking for. Made from a solid piece of cherry wood and sanded to a smooth finish, it is just the right board for anything you need.</p>\
+        <p>This cutting board measures approximately 11 inches by 7 inches and is 1 inch thick with rounded edges. It makes the perfect addition to any kitchen. Leave it on the counter for display or tuck it away easily for use later.</p>\
+        <p>Cherry is a beautiful hard wood with dense grain, making it perfect for the kitchen. Cherry can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind.  </p>\
+        <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+        id: 203,
+        price: 29,
+        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+                 <input type="hidden" name="cmd" value="_s-xclick">\
+                 <input type="hidden" name="hosted_button_id" value="U3WKM9PYA8HKA">\
+                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+                </form>'
+  }]
+  this.shavingStands = [{
+      name: 'Rosewood Shaving Stand',
+      image: "../public/images/rosewood-stand.jpg",
+      desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
+      <p>Handmade from Honduras rosewood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
+      <p>Rosewood is a beautiful hard wood with dense grain, making it perfect for shaving sets. Rosewood can vary from a lighter brown to a deeper brownish purple and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
+      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      id: 301,
+      price: 49,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="4P686NV3UMBKY">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+},{
+      name: 'Birdseye Maple Shaving Stand',
+      image: "../public/images/maple-stand.jpg",
+      desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
+      <p>Handmade from birdseye maple wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
+      <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a shaving set. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
+      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      id: 302,
+      price: 49,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="4P686NV3UMBKY">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+  }]
+
+this.allProducts = this.pinInfo.concat(this.shavingsetInfo, this.cuttingBoards, this.shavingStands);
 
 })

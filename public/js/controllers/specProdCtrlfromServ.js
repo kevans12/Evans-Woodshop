@@ -2,6 +2,8 @@ angular.module('woodshop').controller('specProdCtrlfromServ', function($scope, $
 
   $scope.pinInfo = mainService.pinInfo;
   $scope.shavingsetInfo = mainService.shavingsetInfo;
+  $scope.cuttingBoards = mainService.cuttingBoards;
+  $scope.shavingStands = mainService.shavingStands;
   $scope.allProducts = mainService.allProducts;
       // console.log($scope.pinInfo);
       $scope.selectedProd = '';

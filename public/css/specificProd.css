@@ -53,6 +53,9 @@
 .specific-right p {
   font-size: 1.2em;
 }
+.specific-right tr {
+  font-size: .8em;
+}
 @media (max-width: 750px) {
   .specific-right {
     width: 300px;

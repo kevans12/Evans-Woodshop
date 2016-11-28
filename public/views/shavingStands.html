@@ -1,0 +1,16 @@
+<div class="banner"><img src="./public/images/EvansWoodshop_small.jpg" /> </div>
+<div class="products">
+  <section class="product-container" ng-repeat="stand in shavingStands">
+   <a ui-sref="specProdfromServ({prodID: stand.id})">
+    <section class="product-card" >
+        <div class="image-container">
+          <img src={{stand.image}} alt="{{stand.name}}">
+        </div>
+        <div class="product-bottom">
+            <h4> {{stand.name}} </h4>
+            <h5>{{stand.price | currency}}</h5>
+        </div>
+    </section>
+  </a>
+ </section>
+ </div>

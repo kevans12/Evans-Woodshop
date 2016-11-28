@@ -25,6 +25,24 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'productCtrl',
                 controllerAs: 'vm'
             })
+            .state('cuttingBoards',{
+                url:'/cuttingBoards',
+                templateUrl: "./public/views/cuttingBoards.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
+            .state('shavingStands',{
+                url:'/shavingStands',
+                templateUrl: "./public/views/shavingStands.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
+            .state('allProducts',{
+                url:'/allProducts',
+                templateUrl: "./public/views/allProducts.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
             .state('pinsDB',{
                 url:'/pinsDB',
                 templateUrl: "./public/views/pinsDB.html",
