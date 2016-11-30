@@ -405,7 +405,7 @@ angular.module('woodshop').service('mainService', function(){
   }]
   this.shavingStands = [{
       name: 'Rosewood Shaving Stand',
-      image: "../public/images/rosewoodStand.jpg",
+      image: "../public/images/rosewoodshavestand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from Honduras rosewood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Rosewood is a beautiful hard wood with dense grain, making it perfect for shaving sets. Rosewood can vary from a lighter brown to a deeper brownish purple and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
