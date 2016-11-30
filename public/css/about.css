@@ -93,8 +93,8 @@ h4{
   margin: 10px 0px;
   align-items: center;
   padding: 10px 5px;
-  /*display: flex;
-  flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
 }
 .video-feed::after {
   content: "";
@@ -107,4 +107,32 @@ h4{
   right: 0;
   position: absolute;
   z-index: -1;
+}
+.video-feed h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+.video-feed iframe {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/***************************about Kyle*******************************/
+.about-kyle-top {
+  margin: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  /*flex-flow: wrap;*/
+}
+.about-kyle-top-pic {
+  width: 200px;
+  height: auto;
+}
+.about-kyle-top img {
+  width: 100%;
+}
+.about-kyle-top-text {
+  padding: 0px 20px;
 }

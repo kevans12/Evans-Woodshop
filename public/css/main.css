@@ -254,6 +254,7 @@ max-height: 300px;
 @media(max-width:500px) {
   .slideshow {
     display: none;
+
   }
   #slideshow {
     display: none;
@@ -261,6 +262,9 @@ max-height: 300px;
   }
   .social {
     align-items: center;
+  }
+  .social-icons {
+    margin-bottom: 60px;
   }
   .social-icons img {
     width: 60px;

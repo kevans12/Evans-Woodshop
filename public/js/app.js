@@ -13,6 +13,12 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'aboutCtrl',
                 controllerAs: 'vm'
             })
+            .state('aboutKyle',{
+                url:'/aboutKyle',
+                templateUrl: "./public/views/aboutKyle.html",
+                controller: 'aboutCtrl',
+                controllerAs: 'vm'
+            })
             .state('pins',{
                 url:'/pins',
                 templateUrl: "./public/views/pins.html",
