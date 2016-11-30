@@ -147,7 +147,7 @@ body {
 }
 @media(max-width: 500px) {
   .home-products-grid a span {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 }
 /***************************slideshow/social*******************************/
@@ -243,7 +243,7 @@ max-height: 300px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 5px;
   }
@@ -261,6 +261,9 @@ max-height: 300px;
   }
   .social {
     align-items: center;
+  }
+  .social-icons img {
+    width: 60px;
   }
 }
 /***************************about*******************************/
