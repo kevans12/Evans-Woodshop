@@ -332,7 +332,7 @@ angular.module('woodshop').service('mainService', function(){
        <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
        <p>Padauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain. </p>\
        <p>It\'s the perfect gift for Christmas, Father\'s Day, Groomsmen, birthdays or any occasion. Each shaving set comes in a premium gift box, ready to present.</p>',
-       id: 107,
+       id: 108,
        price: 129,
        button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
@@ -405,16 +405,20 @@ angular.module('woodshop').service('mainService', function(){
   }]
   this.shavingStands = [{
       name: 'Rosewood Shaving Stand',
-      image: "../public/images/rosewood-stand.jpg",
+      image: "../public/images/rosewoodStand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from Honduras rosewood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Rosewood is a beautiful hard wood with dense grain, making it perfect for shaving sets. Rosewood can vary from a lighter brown to a deeper brownish purple and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
-      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, birthdays, groomsmen, Valentine\'s Day or any occasion. Each shaving stand comes in a great looking gift box, ready to present.</p> \
+      <p>SPECIFICATIONS:<br />\
+      Height: ~ 5 inches<br />\
+      Base: ~ 3 inches in diameter<br />\
+      Size: The opening for the razor is just under half an inch (~1.25cm) and the opening for the brush is 1 inch (2.54cm).</p>',
       id: 301,
       price: 49,
       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
-               <input type="hidden" name="hosted_button_id" value="4P686NV3UMBKY">\
+               <input type="hidden" name="hosted_button_id" value="DYPY58V8F275W">\
                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
               </form>'
@@ -424,12 +428,92 @@ angular.module('woodshop').service('mainService', function(){
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from birdseye maple wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a shaving set. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
-      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, birthdays, groomsmen, Valentine\'s Day or any occasion. Each shaving stand comes in a great looking gift box, ready to present.</p> \
+      <p>SPECIFICATIONS:<br />\
+      Height: ~ 5 inches<br />\
+      Base: ~ 3 inches in diameter<br />\
+      Size: The opening for the razor is just under half an inch (~1.25cm) and the opening for the brush is 1 inch (2.54cm).</p>',
       id: 302,
       price: 49,
       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
-               <input type="hidden" name="hosted_button_id" value="4P686NV3UMBKY">\
+               <input type="hidden" name="hosted_button_id" value="QXTFWDQJW9GA2">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+},{
+      name: 'Padauk Shaving Stand',
+      image: "../public/images/padaukstand.jpg",
+      desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
+      <p>Handmade from padauk wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
+      <p>Padauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, birthdays, groomsmen, Valentine\'s Day or any occasion. Each shaving stand comes in a great looking gift box, ready to present.</p>\
+      <p>SPECIFICATIONS:<br />\
+      Height: ~ 5 inches<br />\
+      Base: ~ 3 inches in diameter<br />\
+      Size: The opening for the razor is just under half an inch (~1.25cm) and the opening for the brush is 1 inch (2.54cm).</p>',
+      id: 303,
+      price: 49,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="D627SHZCGRC7C">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+},{
+      name: 'Cherry Shaving Stand',
+      image: "../public/images/cherrystand.jpg",
+      desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
+      <p>Handmade from cherry wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
+      <p>Cherry is a beautiful hard wood with dense grain, making it perfect for shaving sets. Cherry can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, birthdays, groomsmen, Valentine\'s Day or any occasion. Each shaving stand comes in a great looking gift box, ready to present.</p>\
+      <p>SPECIFICATIONS:<br />\
+      Height: ~ 5 inches<br />\
+      Base: ~ 3 inches in diameter<br />\
+      Size: The opening for the razor is just under half an inch (~1.25cm) and the opening for the brush is 1 inch (2.54cm).</p>',
+      id: 304,
+      price: 49,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="4T6DAQWZ6YY2A">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+},{
+      name: 'Ebony Shaving Stand',
+      image: "../public/images/ebonystand.jpg",
+      desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
+      <p>Handmade from black (Gaboon) Ebony wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
+      <p>Black Ebony is a beautful, dark wood. It is typically jet-black, with very little grain visible. Occasionally there may be some brown or gray streaks visible. Ebony is a very dense, hard wood, making it an excellent choice for a shaving set. Due to the small size of the tree and high demand for this beautiful wood, it is one of the most expensive types of wood available. Please note each item will be slightly different and unique as they are made to order. </p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, birthdays, groomsmen, Valentine\'s Day or any occasion. Each shaving stand comes in a great looking gift box, ready to present.</p>\
+      <p>SPECIFICATIONS:<br />\
+      Height: ~ 5 inches<br />\
+      Base: ~ 3 inches in diameter<br />\
+      Size: The opening for the razor is just under half an inch (~1.25cm) and the opening for the brush is 1 inch (2.54cm).</p>',
+      id: 305,
+      price: 63,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="QR7ZRQ66P5Z3N">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+},{
+      name: 'Caribbean Swirl Shaving Stand',
+      image: "../public/images/bluestand.jpg",
+      desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
+      <p>Handmade from Caribbean swirl acrylic, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
+      <p>This eye-catching Caribbean swirl acrylic is not only a beautiful, vibrant blue with swirls throughout, but is also extremely durable. It will be a conversation piece as well as the perfect addition to any countertop. </p>\
+      <p>It\'s the perfect gift for Christmas, Father\'s Day, birthdays, groomsmen, Valentine\'s Day or any occasion. Each shaving stand comes in a great looking gift box, ready to present.</p>\
+      <p>SPECIFICATIONS:<br />\
+      Height: ~ 5 inches<br />\
+      Base: ~ 3 inches in diameter<br />\
+      Size: The opening for the razor is just under half an inch (~1.25cm) and the opening for the brush is 1 inch (2.54cm).</p>',
+      id: 306,
+      price: 49,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="8T7ES228CRXHS">\
                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
               </form>'

@@ -15,3 +15,39 @@
   margin: 0 auto;
 }
 .aboutpic-text {font-size: 1.2em}
+
+/***************************about*******************************/
+.about-story {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px 0px;
+}
+.about-story .left {
+  float: left;
+  height: auto;
+  width: 40%;
+  margin: 5px;
+}
+.about-story .left img {
+  max-width: 90%;
+
+}
+.about-story .right {
+  float: right;
+  height: auto;
+  width: 40%;
+  margin: 5px;
+}
+.about-story .right img {
+  max-width: 90%;
+
+}
+
+.line {
+  width: 100%;
+  margin: auto;
+  background-color: #D3D3D3;
+  height: 2px;
+  margin-top: 5px;
+}
