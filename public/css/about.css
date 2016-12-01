@@ -122,17 +122,32 @@ h4{
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  /*justify-content: center;*/
-  /*flex-flow: wrap;*/
+  justify-content: center;
 }
-.about-kyle-top-pic {
-  width: 200px;
-  height: auto;
+.kyle-card {
+  width: 300px;
+  margin: 5px 20px;
 }
-.about-kyle-top img {
+.kyle-card img {
   width: 100%;
 }
-.about-kyle-top-text {
-  padding: 0px 20px;
+
+/***************************about shop*******************************/
+.about-shop-sections {
+  margin: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.shop-card {
+  width: 350px;
+  margin: 5px 20px;
+}
+.shop-card img {
+  width: 100%;
 }
