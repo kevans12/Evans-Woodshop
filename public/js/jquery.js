@@ -34,3 +34,17 @@ function openProdInfo(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+$(".navbar-nav li a").click(function(event) {
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+});
+// $(".navbar-toggle collapsed").click(function(event) {
+//     $(".navbar-collapse").toggle('in');
+// });
+
+// $(document).ready(function () {
+//     $("nav").find("li").on("click", "a", function () {
+//         $('.navbar-collapse.in').collapse('hide');
+//     });
+// });
