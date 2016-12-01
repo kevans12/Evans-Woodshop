@@ -114,6 +114,14 @@ h4{
 .video-feed iframe {
   justify-content: center;
   margin-bottom: 20px;
+  width: 560px;
+  height: 315px;
+}
+@media(max-width: 560px) {
+  .video-feed iframe {
+    width: 336px;
+    height: 189px;
+  }
 }
 
 /***************************about Kyle*******************************/
