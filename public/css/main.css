@@ -87,6 +87,7 @@ body {
 .home-products-grid {
   width: 100%;
   margin: 10px;
+  padding-right: 15px;
   margin-bottom: 30px;
   height: auto;
 }
