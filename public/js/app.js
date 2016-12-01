@@ -25,6 +25,12 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'aboutCtrl',
                 controllerAs: 'vm'
             })
+            .state('aboutProcess',{
+                url:'/aboutProcess',
+                templateUrl: "./public/views/aboutProcess.html",
+                controller: 'aboutCtrl',
+                controllerAs: 'vm'
+            })
             .state('pins',{
                 url:'/pins',
                 templateUrl: "./public/views/pins.html",

@@ -34,7 +34,7 @@ function openProdInfo(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
+//to get the collapsed dropdown to close on a click
 $(".navbar-nav li a").click(function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
