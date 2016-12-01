@@ -37,6 +37,18 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'productCtrl',
                 controllerAs: 'vm'
             })
+            .state('pens',{
+                url:'/pens',
+                templateUrl: "./public/views/pens.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
+            .state('keychains',{
+                url:'/keychains',
+                templateUrl: "./public/views/keychains.html",
+                controller: 'productCtrl',
+                controllerAs: 'vm'
+            })
             .state('shaving',{
                 url:'/shavingsets',
                 templateUrl: "./public/views/shavingsets.html",

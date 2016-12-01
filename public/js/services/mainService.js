@@ -519,6 +519,103 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
   }]
 
-this.allProducts = this.pinInfo.concat(this.shavingsetInfo, this.cuttingBoards, this.shavingStands);
+  this.penInfo = [{
+      name: 'Walnut Rollerball Pen',
+      image: "../public/images/walnutpen.jpg",
+      desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
+      <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
+      <p>The pen is hand turned from a beautiful walnut and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
+      <p>Walnut is a beautiful hard wood with dense grain. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.Each item will be slightly different and unique as they are made to order.</p>\
+      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      id: 401,
+      price: 40,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+  },{
+      name: 'Spalted Tamarind Rollerball Pen',
+      image: "../public/images/tamarindpen.jpg",
+      desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
+      <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
+      <p>The pen is hand turned from a beautiful spalted tamarind wood and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
+      <pSpalted tamarind wood is a beautiful light wood with dramatic black stripes & patterns that comes from tropical Africa. Each piece has its own figuring, giving each item a unique look.</p>\
+      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      id: 402,
+      price: 40,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+  },{
+      name: 'Padauk Rollerball Pen',
+      image: "../public/images/padaukpen.jpg",
+      desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
+      <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
+      <p>The pen is hand turned from a beautiful padauk wood and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
+      <pPadauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
+      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      id: 403,
+      price: 40,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+  }]
+
+  this.keychainInfo = [{
+      name: 'Handmade Walnut Keychain',
+      image: "../public/images/walnut-keychain.jpg",
+      desc: '<p>Hand turned, beautiful keychain with a convenient secret compartment for storage of toothpicks, money, sewing needles, pills or whatever other small item you may need. Turned from walnut wood with chrome accents, this keychain makes a great accessory for extra storage wherever you are. </p>\
+      <p>This keychain is 3 inches long. The cap easily unscrews for quick access. It is also finished with multiple coats of heavy duty super glue and buffed to a high gloss so it will last for a years to come while maintaining its original beauty.</p>\
+      <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a keychain. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout. Each item will be slightly different and unique as they are made to order.</p>\
+      <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+      id: 501,
+      price: 24,
+      button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+               <input type="hidden" name="cmd" value="_s-xclick">\
+               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+              </form>'
+  },{
+    name: 'Birdseye Maple Keychain',
+    image: "../public/images/maple-keychain.jpg",
+    desc: '<p>Hand turned, beautiful keychain with a convenient secret compartment for storage of toothpicks, money, sewing needles, pills or whatever other small item you may need. Turned from birdseye maple wood with chrome accents, this keychain makes a great accessory for extra storage wherever you are. </p>\
+    <p>This keychain is 3 inches long. The cap easily unscrews for quick access. It is also finished with multiple coats of heavy duty super glue and buffed to a high gloss so it will last for a years to come while maintaining its original beauty.</p>\
+    <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a keychain. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
+    <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+    id: 502,
+    price: 24,
+    button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+             <input type="hidden" name="cmd" value="_s-xclick">\
+             <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+            </form>'
+  },{
+    name: 'Purpleheart Keychain',
+    image: "../public/images/purpleheart-keychain.jpg",
+    desc: '<p>Hand turned, beautiful keychain with a convenient secret compartment for storage of toothpicks, money, sewing needles, pills or whatever other small item you may need. Turned from purpleheart wood with chrome accents, this keychain makes a great accessory for extra storage wherever you are. </p>\
+    <p>This keychain is 3 inches long. The cap easily unscrews for quick access. It is also finished with multiple coats of heavy duty super glue and buffed to a high gloss so it will last for a years to come while maintaining its original beauty.</p>\
+    <p>Purpleheart is a beautiful hard wood with dense grain, making it perfect for a keychain. Purpleheart can vary from a lighter grayish purple to a deep purple and has figured patterns and streaks throughout. Each item will be slightly different and unique as they are made to order.</p>\
+    <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
+    id: 503,
+    price: 24,
+    button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
+             <input type="hidden" name="cmd" value="_s-xclick">\
+             <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
+            </form>'
+}]
+
+this.allProducts = this.pinInfo.concat(this.shavingsetInfo, this.cuttingBoards, this.shavingStands, this.penInfo, this.keychainInfo);
 
 })

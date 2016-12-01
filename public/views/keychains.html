@@ -1,0 +1,16 @@
+<div class="banner"><img src="./public/images/EvansWoodshop_small.jpg" /> </div>
+<div class="products">
+  <section class="product-container" ng-repeat="keychain in keychainInfo">
+   <a ui-sref="specProdfromServ({prodID: keychain.id})">
+    <section class="product-card" >
+        <div class="image-container">
+          <img src={{keychain.image}} alt="{{keychain.name}}">
+        </div>
+        <div class="product-bottom">
+            <h4> {{keychain.name}} </h4>
+            <h5>{{keychain.price | currency}}</h5>
+        </div>
+    </section>
+  </a>
+ </section>
+ </div>
