@@ -525,13 +525,13 @@ angular.module('woodshop').service('mainService', function(){
       desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
       <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
       <p>The pen is hand turned from a beautiful walnut and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
-      <p>Walnut is a beautiful hard wood with dense grain. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.Each item will be slightly different and unique as they are made to order.</p>\
+      <p>Walnut is a beautiful hard wood with dense grain. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout. Each item will be slightly different and unique as they are made to order.</p>\
       <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
       id: 401,
       price: 40,
       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
-               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="hidden" name="hosted_button_id" value="7TNFGJTMX24U6">\
                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
               </form>'
@@ -539,15 +539,15 @@ angular.module('woodshop').service('mainService', function(){
       name: 'Spalted Tamarind Rollerball Pen',
       image: "../public/images/tamarindpen.jpg",
       desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
-      <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
+      <p>Decorative and functional, this beautiful rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
       <p>The pen is hand turned from a beautiful spalted tamarind wood and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
-      <pSpalted tamarind wood is a beautiful light wood with dramatic black stripes & patterns that comes from tropical Africa. Each piece has its own figuring, giving each item a unique look.</p>\
+      <p>Spalted tamarind wood is a beautiful light wood with dramatic black stripes & patterns that comes from tropical Africa. Each piece has its own figuring, giving each item a unique look.</p>\
       <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
       id: 402,
       price: 40,
       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
-               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="hidden" name="hosted_button_id" value="BJKHVQC276QFQ">\
                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
               </form>'
@@ -555,15 +555,15 @@ angular.module('woodshop').service('mainService', function(){
       name: 'Padauk Rollerball Pen',
       image: "../public/images/padaukpen.jpg",
       desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
-      <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
+      <p>Decorative and functional, this beautiful rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
       <p>The pen is hand turned from a beautiful padauk wood and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
-      <pPadauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
+      <p>Padauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
       <p>It\'s the perfect gift for Christmas, Mother\'s Day, Father\'s Day, birthdays, housewarmings, weddings, showers or any occasion.</p> ',
       id: 403,
       price: 40,
       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
-               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="hidden" name="hosted_button_id" value="3LNEY6GN8KV38">\
                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
               </form>'
@@ -580,7 +580,7 @@ angular.module('woodshop').service('mainService', function(){
       price: 24,
       button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
                <input type="hidden" name="cmd" value="_s-xclick">\
-               <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+               <input type="hidden" name="hosted_button_id" value="KRELM3T6ET65N">\
                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
               </form>'
@@ -595,7 +595,7 @@ angular.module('woodshop').service('mainService', function(){
     price: 24,
     button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
              <input type="hidden" name="cmd" value="_s-xclick">\
-             <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+             <input type="hidden" name="hosted_button_id" value="EFYAZM5487NYJ">\
              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
             </form>'
@@ -610,7 +610,7 @@ angular.module('woodshop').service('mainService', function(){
     price: 24,
     button: '<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">\
              <input type="hidden" name="cmd" value="_s-xclick">\
-             <input type="hidden" name="hosted_button_id" value="T7T8WEYYC5D3L">\
+             <input type="hidden" name="hosted_button_id" value="FQZ5UNGQNJR7A">\
              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">\
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">\
             </form>'
