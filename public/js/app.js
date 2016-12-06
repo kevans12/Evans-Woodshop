@@ -7,6 +7,13 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'homeCtrl',
                 controllerAs: 'vm'
             })
+            $stateProvider
+                .state('contact',{
+                    url:'/contact',
+                    templateUrl: "./public/views/contact.html",
+                    controller: 'contactCtrl',
+                    controllerAs: 'vm'
+                })
             .state('about',{
                 url:'/about',
                 templateUrl: "./public/views/about.html",
