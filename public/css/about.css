@@ -7,6 +7,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about-photo p {
   text-align: center;
@@ -107,6 +112,11 @@ h4{
   right: 0;
   position: absolute;
   z-index: -1;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .video-feed h2 {
   font-family: 'Permanent Marker', cursive;

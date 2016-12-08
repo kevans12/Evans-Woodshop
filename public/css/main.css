@@ -37,6 +37,11 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home-photo p {
   text-align: center;
@@ -172,6 +177,11 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slidshow {
  float: left;
@@ -326,6 +336,11 @@ max-height: 300px;
   right: 0;
   position: absolute;
   z-index: -1;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .picture-feed h2 {
   align-items: center;
