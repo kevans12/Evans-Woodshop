@@ -57,8 +57,18 @@
        between the labels and their text fields */
     margin-left: .5em;
 }
-.submitButton input{
+.submitButton{
   align-items: center;
+  margin: auto;
+  padding-left: 45%;
+}
+.enterCode{
+  margin: auto;
+  padding-left: 15%;
+}
+.thanksMessage {
+  margin: 5px;
+  padding: 5px;
 }
 
 @media(max-width: 450px) {
@@ -67,5 +77,12 @@
   }
   .contactFormField input, textarea {
       width: 200px;
+    }
+    .submitButton{
+      padding-left: 40%;
+    }
+    .enterCode{
+      margin: auto;
+      padding-left: 10px;
     }
 }

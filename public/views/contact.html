@@ -59,7 +59,7 @@
 <form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" class="contactForm" method="post" onsubmit="return ValidateForm(this);">
 <input name="skip_WhereToSend" type="hidden" value="evanswoodshop@gmail.com" />
 <input name="skip_SnapHostID" type="hidden" value="7WGCLSD877LW" />
-<input name="skip_WhereToReturn" type="hidden" value="http://www.evanswoodshop.com" />
+<input name="skip_WhereToReturn" type="hidden" value="http://138.68.55.171/#/thanks" />
 <input name="skip_Subject" type="hidden" value="Contact Us Form" />
 <input name="skip_ShowUsersIp" type="hidden" value="1" />
 <input name="skip_SendCopyToUser" type="hidden" value="1" />
@@ -112,20 +112,25 @@ return false; }
 </div> -->
 <!-- Please check our ProCaptcha service which is ad-free:
 http://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
-<a href="http://www.snaphost.com/captcha/ProCaptchaOverview.aspx" alt="custom html forms" title="custom html forms">
-</a></td></tr>
-<tr valign="top" style="margin-left:50px;"><td> <i>Enter code:</i>
-<input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
-</td><td>
-<a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
-style="margin-left:20px;"
-src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7WGCLSD877LW&ImgType=2" /></a><br />
-<a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px; float:right; margin-right:60px;">
+<div class="enterCode">
+  <a href="http://www.snaphost.com/captcha/ProCaptchaOverview.aspx" alt="custom html forms" title="custom html forms">
+  </a></td></tr>
+  <tr valign="top">
+  <td> <i>Enter code:</i><input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" /></td>
+  <td><a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
+
+  src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7WGCLSD877LW&ImgType=2" /></a><br />
+  <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
+
+    >
   <!-- reload image -->
-</span></a> </td></tr>
-</table> <br />
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<input name="skip_Submit" type="submit" value="Submit" class="submitButton"/>
+  </span></a> </td></tr>
+  </table> <br />
+</div>
+ <!-- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
+ <div class="submitButton">
+    <input name="skip_Submit" type="submit" value="Submit"/>
+ </div>
 </td></tr>
 </table><br />
 </form>

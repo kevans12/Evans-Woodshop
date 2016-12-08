@@ -13,6 +13,12 @@ angular.module('woodshop', ['ui.router'])
                 controller: 'contactCtrl',
                 controllerAs: 'vm'
                 })
+            .state('thanks',{
+                url:'/thanks',
+                templateUrl: "./public/views/thanks.html",
+                controller: 'contactCtrl',
+                controllerAs: 'vm'
+                })
             .state('about',{
                 url:'/about',
                 templateUrl: "./public/views/about.html",
