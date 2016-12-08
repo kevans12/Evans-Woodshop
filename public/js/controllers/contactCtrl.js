@@ -1,3 +1,3 @@
-angular.module('woodshop').controller('contactCtrl', function($scope, $stateParams){
-  
+angular.module('woodshop').controller('contactCtrl', function($scope, $http){
+
 })

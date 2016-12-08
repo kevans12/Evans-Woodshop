@@ -11,6 +11,7 @@
 }
 .contactFormField {
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 .contactFormField label {
     /* To make sure that all labels have the same size and are properly aligned */
@@ -55,6 +56,9 @@
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
+}
+.submitButton input{
+  align-items: center;
 }
 
 @media(max-width: 450px) {
