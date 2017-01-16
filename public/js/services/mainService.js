@@ -2,7 +2,7 @@ angular.module('woodshop').service('mainService', function(){
 
     this.pinInfo = [{
         name: 'Walnut Rolling Pin',
-        image: "../public/images/walnutpin.jpg",
+        image: "./public/images/walnutpin.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you\'ve found it with this hand turned, solid wood rolling pin. Crafted from beautiful walnut, it is not only functional but is the kind of rolling pin you\'ll want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>This column style rolling pin measures approximately 20-22 inches long and is 2 inches in diameter throughout. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.</p>\
         <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a rolling pin. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.</p>\
@@ -18,7 +18,7 @@ angular.module('woodshop').service('mainService', function(){
 
     }, {
         name: 'Maple Rolling Pin',
-        image: "../public/images/maplepin.jpg",
+        image: "./public/images/maplepin.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you\'ve found it with this hand turned, solid wood rolling pin. Crafted from beautiful maple, it is not only functional but is the kind of rolling pin you\'ll want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>This column style rolling pin measures approximately 20-22 inches long and is 2 inches in diameter throughout. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.</p>\
         <p>Maple is a beautiful hard wood with dense grain, making them perfect for the kitchen. It is a cream colored wood that has light figured patterns and streaks throughout.</p>\
@@ -33,7 +33,7 @@ angular.module('woodshop').service('mainService', function(){
                 </form>'
     },{
         name: 'French Style Walnut Rolling Pin',
-        image: "../public/images/frenchwalnutpin.jpg",
+        image: "./public/images/frenchwalnutpin.jpg",
         desc:
         '<p>Your dough deserves the best rolling pin, and you have found it with this hand turned, solid wood rolling pin. Crafted from beautiful walnut, it is not only functional but is the kind of rolling pin you will want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
          <p>These french style rolling pins measure approximately 20-22 inches long and are 2 inches in diameter, tapering at the ends with decorative beads carved in. They make the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.</p>\
@@ -49,7 +49,7 @@ angular.module('woodshop').service('mainService', function(){
                 </form>'
     },{
         name: 'French Style Maple Rolling Pin',
-        image: "../public/images/frenchmaplepin.jpg",
+        image: "./public/images/frenchmaplepin.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you have found it with this hand turned, solid wood rolling pin. Crafted from hard maple, it is not only functional but is the kind of rolling pin you will want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>This french style rolling pin measures approximately 20-22 inches long and is 2 inches in diameter, tapering at the ends with decorative beads carved in. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.<p>\
          <p>Maple is a beautiful hard wood with dense grain, making them perfect for the kitchen. It is a cream colored wood that has light figured patterns and streaks throughout.</p>\
@@ -64,7 +64,7 @@ angular.module('woodshop').service('mainService', function(){
                   </form>'
       },{
         name: 'Big Roller Rolling Pin',
-        image: "../public/images/bigroller.jpg",
+        image: "./public/images/bigroller.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you\'ve found it with this hand turned, solid wood rolling pin. Crafted from hard maple, walnut and cherry wood, it is not only functional but is the kind of rolling pin you\'ll want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>This big roller rolling pin measures approximately 21.5 inches long and is 3 inches in diameter in the center portion. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.<p>\
          <p>Walnut, cherry and maple are beautiful hard woods with dense grains, making them perfect for the kitchen. Walnut is a beautiful hard wood with dense grain, making it perfect for a rolling pin. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout. Cherry can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Maple is a cream colored wood that also has light patterns throughout.</p>\
@@ -79,7 +79,7 @@ angular.module('woodshop').service('mainService', function(){
                   </form>'
       },{
         name: 'Mini Walnut Rolling Pin',
-        image: "../public/images/mini-walnut-pin.jpg",
+        image: "./public/images/mini-walnut-pin.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you have found it with this hand turned, solid wood rolling pin. Crafted from walnut, it is not only functional but is the kind of rolling pin you will want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>Perfect for smaller jobs or when you have smaller hands helping, this quick rolling pin measures approximately 11 inches long and is ~2 inches in diameter throughout. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.</p>\
         <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a rolling pin. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.</p>\
@@ -94,7 +94,7 @@ angular.module('woodshop').service('mainService', function(){
                   </form>'
       },{
         name: 'Mini Birdseye Maple Rolling Pin',
-        image: "../public/images/birdseye-pin.jpg",
+        image: "./public/images/birdseye-pin.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you have found it with this hand turned, solid wood rolling pin. Crafted from birdseye maple, it is not only functional but is the kind of rolling pin you will want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>Perfect for smaller jobs or when you have smaller hands helping, this quick rolling pin measures approximately 11 inches long and is ~2 inches in diameter throughout. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.</p>\
         <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a rolling pin. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
@@ -109,7 +109,7 @@ angular.module('woodshop').service('mainService', function(){
                 </form>'
       },{
         name: 'Mini Cherry Rolling Pin',
-        image: "../public/images/cherry-pin.jpg",
+        image: "./public/images/cherry-pin.jpg",
         desc: '<p>Your dough deserves the best rolling pin, and you have found it with this hand turned, solid wood rolling pin. Crafted from cherry wood, it is not only functional but is the kind of rolling pin you will want to have on display. Perfect for doughs, fondants, pastas, etc, the heft of this solid pin allows you to really feel out the perfect dough for your project.</p>\
         <p>Perfect for smaller jobs or when you have smaller hands helping, this quick rolling pin measures approximately 11 inches long and is ~2 inches in diameter throughout. It makes the perfect addition to any kitchen. Since each pin is made to order, sizes and actual grain will vary slightly, ensuring that you truly get a one-of-a-kind item.</p>\
         <p>Cherry is a beautiful hard wood with dense grain, making it perfect for a rolling pin. It can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Each item will be slightly different and unique as they are made to order.</p>\
@@ -127,7 +127,7 @@ angular.module('woodshop').service('mainService', function(){
 
     this.shavingsetInfo = [{
         name: 'Walnut Shaving Set',
-        image: "../public/images/walnutshave.jpg",
+        image: "./public/images/walnutshave.jpg",
         desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
         <p>Handmade from walnut wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
         <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -156,7 +156,7 @@ angular.module('woodshop').service('mainService', function(){
 
     }, {
       name: 'Marblewood Shaving Set',
-      image: "../public/images/marblewood.jpg",
+      image: "./public/images/marblewood.jpg",
       desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
       <p>Handmade from marblewood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
       <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -185,7 +185,7 @@ angular.module('woodshop').service('mainService', function(){
 
     },{
       name: 'Birdseye Maple Shaving Set',
-      image: "../public/images/birdseye.jpg",
+      image: "./public/images/birdseye.jpg",
       desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
       <p>Handmade from birdseye maple, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
       <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -214,7 +214,7 @@ angular.module('woodshop').service('mainService', function(){
 
     },{
       name: 'Caribbean Swirl Shaving Set',
-      image: "../public/images/blue.jpg",
+      image: "./public/images/blue.jpg",
       desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
       <p>Handmade from birdseye maple, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
       <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -242,7 +242,7 @@ angular.module('woodshop').service('mainService', function(){
                </form>'
       },{
         name: 'Spalted Tamarind Shaving Set',
-        image: "../public/images/spalted.jpg",
+        image: "./public/images/spalted.jpg",
         desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
         <p>Handmade from spalted tamarind wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
         <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -270,7 +270,7 @@ angular.module('woodshop').service('mainService', function(){
                  </form>'
       },{
         name: 'Cherry Shaving Set',
-        image: "../public/images/cherry.jpg",
+        image: "./public/images/cherry.jpg",
         desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
         <p>Handmade from cherry wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
         <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -298,7 +298,7 @@ angular.module('woodshop').service('mainService', function(){
                  </form>'
      },{
         name: 'Rosewood Shaving Set',
-        image: "../public/images/rosewood-shaving-set.jpg",
+        image: "./public/images/rosewood-shaving-set.jpg",
         desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
         <p>Handmade from Honduran rosewood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
         <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -326,7 +326,7 @@ angular.module('woodshop').service('mainService', function(){
                 </form>'
     },{
        name: 'Padauk Shaving Set',
-       image: "../public/images/padauk-set.jpg",
+       image: "./public/images/padauk-set.jpg",
        desc: '<p>Whether you\'re new to wet shaving or just looking to upgrade, with this shaving set you\'ll be well on your way to the best shaving experience of your life.</p>\
        <p>Handmade from padauk wood, this heavy duty set comes with your choice of razor (Double-edged Safety Razor, Gillette Fusion or Mach 3), a pure badger hair shaving brush and a stand. All items have chrome accents and are finished with super glue for an extremely solid finish. They are polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Please note that blades are not included.</p>\
        <p>Choose between the premium badger hair brush, which offers genuine, high grade badger hair for a great shave every time. Or upgrade to super silvertip, which is made from some of the most expensive and rare badger hair available. The tips are naturally white and it tends to hold large amounts of water while being incredibly soft.</p>\
@@ -357,7 +357,7 @@ angular.module('woodshop').service('mainService', function(){
 
     this.cuttingBoards = [{
         name: 'Solid Walnut Cutting Board',
-        image: "../public/images/walnut-board.jpg",
+        image: "./public/images/walnut-board.jpg",
         desc: '<p>Whether you need a quick cutting board to slice up some fruit or a beautiful serving platter for a cheese ball and crackers, this walnut board is exactly what you\'re looking for. Made from a solid piece of walnut wood and sanded to a smooth finish, it is just the right board for anything you need.</p>\
         <p>This cutting board measures approximately 11 inches by 7 inches and is 1 inch thick with rounded edges. It makes the perfect addition to any kitchen. Leave it on the counter for display or tuck it away easily for use later.</p>\
         <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a rolling pin. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout.</p>\
@@ -373,7 +373,7 @@ angular.module('woodshop').service('mainService', function(){
 
 },{
         name: 'Solid Maple Cutting Board',
-        image: "../public/images/maple-board.jpg",
+        image: "./public/images/maple-board.jpg",
         desc: '<p>Whether you need a quick cutting board to slice up some fruit or a beautiful serving platter for a cheese ball and crackers, this maple board is exactly what you\'re looking for. Made from a solid piece of maple wood and sanded to a smooth finish, it is just the right board for anything you need.</p>\
         <p>This cutting board measures approximately 11 inches by 7 inches and is 1 inch thick with rounded edges. It makes the perfect addition to any kitchen. Leave it on the counter for display or tuck it away easily for use later.</p>\
         <p>Maple is a beautiful hard wood with dense grain, making it perfect for the kitchen. Maple is a cream colored wood that also has light patterns throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
@@ -389,7 +389,7 @@ angular.module('woodshop').service('mainService', function(){
 
 },{
         name: 'Solid Cherry Cutting Board',
-        image: "../public/images/cherry-board.jpg",
+        image: "./public/images/cherry-board.jpg",
         desc: '<p>Whether you need a quick cutting board to slice up some fruit or a beautiful serving platter for a cheese ball and crackers, this cherry board is exactly what you\'re looking for. Made from a solid piece of cherry wood and sanded to a smooth finish, it is just the right board for anything you need.</p>\
         <p>This cutting board measures approximately 11 inches by 7 inches and is 1 inch thick with rounded edges. It makes the perfect addition to any kitchen. Leave it on the counter for display or tuck it away easily for use later.</p>\
         <p>Cherry is a beautiful hard wood with dense grain, making it perfect for the kitchen. Cherry can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind.  </p>\
@@ -405,7 +405,7 @@ angular.module('woodshop').service('mainService', function(){
   }]
   this.shavingStands = [{
       name: 'Rosewood Shaving Stand',
-      image: "../public/images/rosewoodshavestand.jpg",
+      image: "./public/images/rosewoodshavestand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from Honduras rosewood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Rosewood is a beautiful hard wood with dense grain, making it perfect for shaving sets. Rosewood can vary from a lighter brown to a deeper brownish purple and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
@@ -424,7 +424,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
 },{
       name: 'Birdseye Maple Shaving Stand',
-      image: "../public/images/maple-stand.jpg",
+      image: "./public/images/maple-stand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from birdseye maple wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a shaving set. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
@@ -443,7 +443,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
 },{
       name: 'Padauk Shaving Stand',
-      image: "../public/images/padaukstand.jpg",
+      image: "./public/images/padaukstand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from padauk wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Padauk wood is a deep red wood with interesting stripes & patterns that comes from Africa. Each piece has its own figuring, giving each item a unique look. Each piece has its own figuring, giving each item a unique look. As this item is made to order, it may vary slightly from the pictures as yours will be a created from a one-of-a-kind piece of wood with its own unique texture and grain.</p>\
@@ -462,7 +462,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
 },{
       name: 'Cherry Shaving Stand',
-      image: "../public/images/cherrystand.jpg",
+      image: "./public/images/cherrystand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from cherry wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Cherry is a beautiful hard wood with dense grain, making it perfect for shaving sets. Cherry can vary from a lighter, golden color to a deeper reddish brown and has figured patterns and streaks throughout. Please note that each item is made to order, so they will each vary slightly in color and grain as each piece of wood is unique, making it really one-of-a-kind. </p>\
@@ -481,7 +481,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
 },{
       name: 'Ebony Shaving Stand',
-      image: "../public/images/ebonystand.jpg",
+      image: "./public/images/ebonystand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from black (Gaboon) Ebony wood, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>Black Ebony is a beautful, dark wood. It is typically jet-black, with very little grain visible. Occasionally there may be some brown or gray streaks visible. Ebony is a very dense, hard wood, making it an excellent choice for a shaving set. Due to the small size of the tree and high demand for this beautiful wood, it is one of the most expensive types of wood available. Please note each item will be slightly different and unique as they are made to order. </p>\
@@ -500,7 +500,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
 },{
       name: 'Caribbean Swirl Shaving Stand',
-      image: "../public/images/bluestand.jpg",
+      image: "./public/images/bluestand.jpg",
       desc: '<p>Shaving stand for brush and razor. Whether you\'re new to wet shaving or just looking to upgrade, this shaving stand is the perfect way to display and store your shaving brush and razor.</p>\
       <p>Handmade from Caribbean swirl acrylic, this heavy duty shaving stand is the perfect addition to your shaving set. It has chrome accents, a weighted base and is finished with super glue for an extremely solid finish. It is polished to a high gloss for a durable, lasting look that you\'ll be able to enjoy for years to come. Just add your brush and razor (or choose from ours), and you\'re ready to shave.</p>\
       <p>This eye-catching Caribbean swirl acrylic is not only a beautiful, vibrant blue with swirls throughout, but is also extremely durable. It will be a conversation piece as well as the perfect addition to any countertop. </p>\
@@ -521,7 +521,7 @@ angular.module('woodshop').service('mainService', function(){
 
   this.penInfo = [{
       name: 'Walnut Rollerball Pen',
-      image: "../public/images/walnutpen.jpg",
+      image: "./public/images/walnutpen.jpg",
       desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
       <p>Decorative and functional, this beautiful walnut rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
       <p>The pen is hand turned from a beautiful walnut and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
@@ -537,7 +537,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
   },{
       name: 'Spalted Tamarind Rollerball Pen',
-      image: "../public/images/tamarindpen.jpg",
+      image: "./public/images/tamarindpen.jpg",
       desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
       <p>Decorative and functional, this beautiful rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
       <p>The pen is hand turned from a beautiful spalted tamarind wood and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
@@ -553,7 +553,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
   },{
       name: 'Padauk Rollerball Pen',
-      image: "../public/images/padaukpen.jpg",
+      image: "./public/images/padaukpen.jpg",
       desc: '<p>Putting actual pen to paper - something that is all too easily lost in our digital world. Regain the creativity and personal connection of actually writing by hand with this fluid rollerball pen. </p>\
       <p>Decorative and functional, this beautiful rollerball pen is hand turned and the perfect addition to your desk, purse or jacket pocket. It is as much a conversation piece as it is a writing utensil.</p>\
       <p>The pen is hand turned from a beautiful padauk wood and finished with multiple coats of super glue for incredible durability. It is then polished to a high gloss for the great look that will have everyone noticing. </p>\
@@ -571,7 +571,7 @@ angular.module('woodshop').service('mainService', function(){
 
   this.keychainInfo = [{
       name: 'Handmade Walnut Keychain',
-      image: "../public/images/walnut-keychain.jpg",
+      image: "./public/images/walnut-keychain.jpg",
       desc: '<p>Hand turned, beautiful keychain with a convenient secret compartment for storage of toothpicks, money, sewing needles, pills or whatever other small item you may need. Turned from walnut wood with chrome accents, this keychain makes a great accessory for extra storage wherever you are. </p>\
       <p>This keychain is 3 inches long. The cap easily unscrews for quick access. It is also finished with multiple coats of heavy duty super glue and buffed to a high gloss so it will last for a years to come while maintaining its original beauty.</p>\
       <p>Walnut is a beautiful hard wood with dense grain, making it perfect for a keychain. Walnut can vary from a lighter brown to a dark brown and has figured patterns and streaks throughout. Each item will be slightly different and unique as they are made to order.</p>\
@@ -586,7 +586,7 @@ angular.module('woodshop').service('mainService', function(){
               </form>'
   },{
     name: 'Birdseye Maple Keychain',
-    image: "../public/images/maple-keychain.jpg",
+    image: "./public/images/maple-keychain.jpg",
     desc: '<p>Hand turned, beautiful keychain with a convenient secret compartment for storage of toothpicks, money, sewing needles, pills or whatever other small item you may need. Turned from birdseye maple wood with chrome accents, this keychain makes a great accessory for extra storage wherever you are. </p>\
     <p>This keychain is 3 inches long. The cap easily unscrews for quick access. It is also finished with multiple coats of heavy duty super glue and buffed to a high gloss so it will last for a years to come while maintaining its original beauty.</p>\
     <p>Birdseye maple is a beautiful hard wood with dense grain, making it perfect for a keychain. It is a cream colored wood that has a distinctive pattern that resembles tiny, swirling eyes disrupting the smooth lines of grain. Each item will be slightly different and unique as they are made to order.</p>\
@@ -601,7 +601,7 @@ angular.module('woodshop').service('mainService', function(){
             </form>'
   },{
     name: 'Purpleheart Keychain',
-    image: "../public/images/purpleheart-keychain.jpg",
+    image: "./public/images/purpleheart-keychain.jpg",
     desc: '<p>Hand turned, beautiful keychain with a convenient secret compartment for storage of toothpicks, money, sewing needles, pills or whatever other small item you may need. Turned from purpleheart wood with chrome accents, this keychain makes a great accessory for extra storage wherever you are. </p>\
     <p>This keychain is 3 inches long. The cap easily unscrews for quick access. It is also finished with multiple coats of heavy duty super glue and buffed to a high gloss so it will last for a years to come while maintaining its original beauty.</p>\
     <p>Purpleheart is a beautiful hard wood with dense grain, making it perfect for a keychain. Purpleheart can vary from a lighter grayish purple to a deep purple and has figured patterns and streaks throughout. Each item will be slightly different and unique as they are made to order.</p>\
