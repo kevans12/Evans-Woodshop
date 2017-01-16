@@ -1,3 +1,62 @@
+.contact-intro {
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  /*background-color: white;
+  border-radius: 4px;
+  opacity: .8;*/
+}
+.contact h2 {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.contact-button {
+  margin: 10 auto;
+  width: 180px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  color: #b20000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-button:hover {
+  background-color: #b20000;
+  color: white;
+}
+.social-icons-contact {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.social-icons-contact > div {
+  margin: 10px;
+}
+.social-icons-contact img {
+  width: 90px;
+  height: auto;
+}
+.social-icons-contact img:hover {
+ transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
 .contactForm{
     /* Just to center the form on the page */
     margin: 0 auto;

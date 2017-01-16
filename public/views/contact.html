@@ -1,3 +1,26 @@
+<div class="contact-section">
+  <div class="contact-intro">
+   <div class="portfolio-header"><h2>Contact Us</h2></div>
+   <div class="redline"></div>
+    <p class="about-text">
+     Want to get in contact? Click the button below to shoot us an email.
+    </p>
+    <FORM>
+      <INPUT TYPE="button" class="contact-button" VALUE="Email Us" onClick="parent.location='mailto:evanswoodshop+contact@gmail.com?subject='">
+    </FORM>
+   <p class="about-text">
+    Or you can contact us via Etsy chat and other social media using the icons below.
+   </p>
+  <div class="social-icons-contact">
+    <div><a href="https://www.etsy.com/shop/evanswoodshopco/"><img src="./public/images/square-etsy.png" /></a></div>
+    <div><a href="https://www.facebook.com/evanswoodshop/"><img src="./public/images/square-facebook.png" /></a></div>
+    <div><a href="https://www.instagram.com/evanswoodshop/"><img src="./public/images/square-instagram.png" /></a></div>
+    <div><a href="https://www.twitter.com/evanswoodshop"><img src="./public/images/square-twitter.png" /></a></div>
+    <div><a href="https://www.pinterest.com/evanswoodshop/"><img src="./public/images/square-pinterest.png" /></a></div>
+ </div>
+  </div>
+</div>
+
 <!-- <form name="htmlform" method="post" action="html_form_send.php">
 <table width="450px">
 </tr>
@@ -56,7 +79,8 @@
 
 
 <!-- <h2>Contact Us</h2> -->
-<form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" class="contactForm" method="post" onsubmit="return ValidateForm(this);">
+<!-- THIS WAS THE WORKING CODE PORTION EXCEPT THE INDENTED PART-->
+<!-- <form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" class="contactForm" method="post" onsubmit="return ValidateForm(this);">
 <input name="skip_WhereToSend" type="hidden" value="evanswoodshop@gmail.com" />
 <input name="skip_SnapHostID" type="hidden" value="7WGCLSD877LW" />
 <input name="skip_WhereToReturn" type="hidden" value="http://138.68.55.171/#/thanks" />
@@ -79,22 +103,24 @@ var pos = src.indexOf('&rad=');
 if (pos >= 0) { src = src.substr(0, pos); }
 obj.src = src + '&rad=' + date.getTime();
 return false; }
-</script>
-<!-- <table border="0" cellpadding="5" cellspacing="0" width="600">
-<tr>
-<td><b>Name*:</b></td>
-<td><input name="Name" type="text" maxlength="60" style="width:350px;" /></td>
-</tr><tr>
-<td><b>Email address*:</b></td>
-<td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" /></td>
-</tr><tr>
-<td><b>Comments and questions*:</b></td>
-<td><textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea></td>
-</tr><tr>
-<td colspan="2" align="center"> <br />
-<table border="0" cellpadding="0" cellspacing="0">
-<tr><td colspan="2" style="padding-bottom:18px;"> -->
-<div class="contactFormField">
+</script> -->
+      <!-- <table border="0" cellpadding="5" cellspacing="0" width="600">
+      <tr>
+      <td><b>Name*:</b></td>
+      <td><input name="Name" type="text" maxlength="60" style="width:350px;" /></td>
+      </tr><tr>
+      <td><b>Email address*:</b></td>
+      <td><input name="FromEmailAddress" type="text" maxlength="60" style="width:350px;" /></td>
+      </tr><tr>
+      <td><b>Comments and questions*:</b></td>
+      <td><textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea></td>
+      </tr><tr>
+      <td colspan="2" align="center"> <br />
+      <table border="0" cellpadding="0" cellspacing="0">
+      <tr><td colspan="2" style="padding-bottom:18px;"> -->
+
+<!-- THIS WAS THE WORKING CODE PORTION EXCEPT THE INDENTED PART -->
+<!-- <div class="contactFormField">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" />
 </div>
@@ -105,14 +131,14 @@ return false; }
 <div class="contactFormField">
     <label for="comments">Message:</label>
     <textarea id="msg" name="comments"></textarea>
-</div>
-
-<!-- <div class="contactButton">
-    <button type="submit" value="Submit">Send your message</button>
 </div> -->
-<!-- Please check our ProCaptcha service which is ad-free:
-http://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
-<div class="enterCode">
+
+              <!-- <div class="contactButton">
+                  <button type="submit" value="Submit">Send your message</button>
+              </div> -->
+              <!-- Please check our ProCaptcha service which is ad-free:
+              http://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
+<!-- <div class="enterCode">
   <a href="http://www.snaphost.com/captcha/ProCaptchaOverview.aspx" alt="custom html forms" title="custom html forms">
   </a></td></tr>
   <tr valign="top">
@@ -120,17 +146,16 @@ http://www.SnapHost.com/captcha/ProCaptchaOverview.aspx -->
   <td><a href="http://www.snaphost.com/captcha/ReadyForms/ContactUsForm.aspx"><img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form"
 
   src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=7WGCLSD877LW&ImgType=2" /></a><br />
-  <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span
+  <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span -->
 
-    >
+    <!-- > -->
   <!-- reload image -->
-  </span></a> </td></tr>
+  <!-- </span></a> </td></tr>
   </table> <br />
 </div>
- <!-- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -->
  <div class="submitButton">
     <input name="skip_Submit" type="submit" value="Submit"/>
  </div>
 </td></tr>
 </table><br />
-</form>
+</form> -->
